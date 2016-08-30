@@ -1,0 +1,597 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7F736D7D8659BA126F8F3493 /* libPods-AlarmRemindProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7910AF8CBD7E4E4793E076A5 /* libPods-AlarmRemindProject.a */; };
+		A82F2BBC1D6DEF3200BFD5BC /* StudentInfoFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = A82F2BBB1D6DEF3200BFD5BC /* StudentInfoFooterView.m */; };
+		A82F2BBF1D6E8F2700BFD5BC /* StudentInfoAddViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A82F2BBE1D6E8F2700BFD5BC /* StudentInfoAddViewController.m */; };
+		A82F2BC21D6EC2FC00BFD5BC /* LocalNotificationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A82F2BC11D6EC2FC00BFD5BC /* LocalNotificationManager.m */; };
+		A85B682D1D6C2AED002CE3ED /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A85B682C1D6C2AED002CE3ED /* main.m */; };
+		A85B68301D6C2AED002CE3ED /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A85B682F1D6C2AED002CE3ED /* AppDelegate.m */; };
+		A85B68381D6C2AED002CE3ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A85B68371D6C2AED002CE3ED /* Assets.xcassets */; };
+		A85B68461D6C2AED002CE3ED /* AlarmRemindProjectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A85B68451D6C2AED002CE3ED /* AlarmRemindProjectUITests.m */; };
+		A85B68561D6C2C84002CE3ED /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A85B68551D6C2C84002CE3ED /* BaseViewController.m */; };
+		A85B68581D6C2D0D002CE3ED /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A85B68571D6C2D0D002CE3ED /* Launch Screen.storyboard */; };
+		A85B685B1D6C2DEB002CE3ED /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A85B685A1D6C2DEB002CE3ED /* ViewController.m */; };
+		A85B68641D6C321D002CE3ED /* set@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A85B68611D6C321D002CE3ED /* set@2x.png */; };
+		A85B68651D6C321D002CE3ED /* set@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A85B68621D6C321D002CE3ED /* set@3x.png */; };
+		A85B68681D6C3290002CE3ED /* SetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A85B68671D6C3290002CE3ED /* SetViewController.m */; };
+		A85B686F1D6C34F5002CE3ED /* StudentListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A85B686E1D6C34F5002CE3ED /* StudentListCell.m */; };
+		A85B68721D6C39B5002CE3ED /* StudentInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A85B68711D6C39B5002CE3ED /* StudentInfoViewController.m */; };
+		A85B68751D6C3A66002CE3ED /* StudentInfoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A85B68741D6C3A66002CE3ED /* StudentInfoModel.m */; };
+		A85B68781D6C3A8B002CE3ED /* DataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A85B68771D6C3A8B002CE3ED /* DataManager.m */; };
+		A86395EC1D6D71AB005F5337 /* StudentInfoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A86395EB1D6D71AB005F5337 /* StudentInfoCell.m */; };
+		A86395EF1D6D71F0005F5337 /* StudentSubjectCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A86395EE1D6D71F0005F5337 /* StudentSubjectCell.m */; };
+		A86395F21D6D8CCD005F5337 /* StudentAddTeacherViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A86395F11D6D8CCD005F5337 /* StudentAddTeacherViewController.m */; };
+		A8BDBFF01D6FDB2D0011E6EE /* CustomBaseCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A8BDBFEF1D6FDB2D0011E6EE /* CustomBaseCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A85B68421D6C2AED002CE3ED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A85B68201D6C2AED002CE3ED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A85B68271D6C2AED002CE3ED;
+			remoteInfo = AlarmRemindProject;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		46D9A17CF9B4194AA468A864 /* Pods-AlarmRemindProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlarmRemindProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-AlarmRemindProject/Pods-AlarmRemindProject.release.xcconfig"; sourceTree = "<group>"; };
+		6A5AFB9DF3FBC0E740C9CB71 /* Pods-AlarmRemindProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlarmRemindProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AlarmRemindProject/Pods-AlarmRemindProject.debug.xcconfig"; sourceTree = "<group>"; };
+		7910AF8CBD7E4E4793E076A5 /* libPods-AlarmRemindProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AlarmRemindProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A82F2BBA1D6DEF3200BFD5BC /* StudentInfoFooterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StudentInfoFooterView.h; sourceTree = "<group>"; };
+		A82F2BBB1D6DEF3200BFD5BC /* StudentInfoFooterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StudentInfoFooterView.m; sourceTree = "<group>"; };
+		A82F2BBD1D6E8F2700BFD5BC /* StudentInfoAddViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StudentInfoAddViewController.h; sourceTree = "<group>"; };
+		A82F2BBE1D6E8F2700BFD5BC /* StudentInfoAddViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StudentInfoAddViewController.m; sourceTree = "<group>"; };
+		A82F2BC01D6EC2FC00BFD5BC /* LocalNotificationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocalNotificationManager.h; sourceTree = "<group>"; };
+		A82F2BC11D6EC2FC00BFD5BC /* LocalNotificationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocalNotificationManager.m; sourceTree = "<group>"; };
+		A85B68281D6C2AED002CE3ED /* AlarmRemindProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlarmRemindProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A85B682C1D6C2AED002CE3ED /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A85B682E1D6C2AED002CE3ED /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A85B682F1D6C2AED002CE3ED /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A85B68371D6C2AED002CE3ED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A85B683C1D6C2AED002CE3ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A85B68411D6C2AED002CE3ED /* AlarmRemindProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlarmRemindProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A85B68451D6C2AED002CE3ED /* AlarmRemindProjectUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlarmRemindProjectUITests.m; sourceTree = "<group>"; };
+		A85B68471D6C2AED002CE3ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A85B68541D6C2C84002CE3ED /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		A85B68551D6C2C84002CE3ED /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		A85B68571D6C2D0D002CE3ED /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		A85B68591D6C2DEB002CE3ED /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A85B685A1D6C2DEB002CE3ED /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A85B68611D6C321D002CE3ED /* set@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "set@2x.png"; sourceTree = "<group>"; };
+		A85B68621D6C321D002CE3ED /* set@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "set@3x.png"; sourceTree = "<group>"; };
+		A85B68661D6C3290002CE3ED /* SetViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SetViewController.h; sourceTree = "<group>"; };
+		A85B68671D6C3290002CE3ED /* SetViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SetViewController.m; sourceTree = "<group>"; };
+		A85B68691D6C33EA002CE3ED /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		A85B686C1D6C342D002CE3ED /* Constant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constant.h; sourceTree = "<group>"; };
+		A85B686D1D6C34F5002CE3ED /* StudentListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StudentListCell.h; sourceTree = "<group>"; };
+		A85B686E1D6C34F5002CE3ED /* StudentListCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StudentListCell.m; sourceTree = "<group>"; };
+		A85B68701D6C39B5002CE3ED /* StudentInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StudentInfoViewController.h; sourceTree = "<group>"; };
+		A85B68711D6C39B5002CE3ED /* StudentInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StudentInfoViewController.m; sourceTree = "<group>"; };
+		A85B68731D6C3A66002CE3ED /* StudentInfoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StudentInfoModel.h; sourceTree = "<group>"; };
+		A85B68741D6C3A66002CE3ED /* StudentInfoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StudentInfoModel.m; sourceTree = "<group>"; };
+		A85B68761D6C3A8B002CE3ED /* DataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataManager.h; sourceTree = "<group>"; };
+		A85B68771D6C3A8B002CE3ED /* DataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataManager.m; sourceTree = "<group>"; };
+		A86395EA1D6D71AB005F5337 /* StudentInfoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StudentInfoCell.h; sourceTree = "<group>"; };
+		A86395EB1D6D71AB005F5337 /* StudentInfoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StudentInfoCell.m; sourceTree = "<group>"; };
+		A86395ED1D6D71F0005F5337 /* StudentSubjectCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StudentSubjectCell.h; sourceTree = "<group>"; };
+		A86395EE1D6D71F0005F5337 /* StudentSubjectCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StudentSubjectCell.m; sourceTree = "<group>"; };
+		A86395F01D6D8CCD005F5337 /* StudentAddTeacherViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StudentAddTeacherViewController.h; sourceTree = "<group>"; };
+		A86395F11D6D8CCD005F5337 /* StudentAddTeacherViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StudentAddTeacherViewController.m; sourceTree = "<group>"; };
+		A8BDBFEE1D6FDB2D0011E6EE /* CustomBaseCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomBaseCell.h; sourceTree = "<group>"; };
+		A8BDBFEF1D6FDB2D0011E6EE /* CustomBaseCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomBaseCell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A85B68251D6C2AED002CE3ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F736D7D8659BA126F8F3493 /* libPods-AlarmRemindProject.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A85B683E1D6C2AED002CE3ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		12F409A47C33B5AEDCB8D44A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7910AF8CBD7E4E4793E076A5 /* libPods-AlarmRemindProject.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9EF7B12E4C6FCBD222AB2423 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6A5AFB9DF3FBC0E740C9CB71 /* Pods-AlarmRemindProject.debug.xcconfig */,
+				46D9A17CF9B4194AA468A864 /* Pods-AlarmRemindProject.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A85B681F1D6C2AED002CE3ED = {
+			isa = PBXGroup;
+			children = (
+				A85B682A1D6C2AED002CE3ED /* AlarmRemindProject */,
+				A85B68441D6C2AED002CE3ED /* AlarmRemindProjectUITests */,
+				A85B68291D6C2AED002CE3ED /* Products */,
+				9EF7B12E4C6FCBD222AB2423 /* Pods */,
+				12F409A47C33B5AEDCB8D44A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A85B68291D6C2AED002CE3ED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A85B68281D6C2AED002CE3ED /* AlarmRemindProject.app */,
+				A85B68411D6C2AED002CE3ED /* AlarmRemindProjectUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A85B682A1D6C2AED002CE3ED /* AlarmRemindProject */ = {
+			isa = PBXGroup;
+			children = (
+				A85B68501D6C2B95002CE3ED /* Model */,
+				A85B68511D6C2B95002CE3ED /* Resource */,
+				A85B68521D6C2B95002CE3ED /* View */,
+				A85B68531D6C2B95002CE3ED /* ViewController */,
+				A85B682E1D6C2AED002CE3ED /* AppDelegate.h */,
+				A85B682F1D6C2AED002CE3ED /* AppDelegate.m */,
+				A85B682B1D6C2AED002CE3ED /* Supporting Files */,
+			);
+			path = AlarmRemindProject;
+			sourceTree = "<group>";
+		};
+		A85B682B1D6C2AED002CE3ED /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A85B682C1D6C2AED002CE3ED /* main.m */,
+				A85B68571D6C2D0D002CE3ED /* Launch Screen.storyboard */,
+				A85B68371D6C2AED002CE3ED /* Assets.xcassets */,
+				A85B683C1D6C2AED002CE3ED /* Info.plist */,
+				A85B68691D6C33EA002CE3ED /* PrefixHeader.pch */,
+				A85B686C1D6C342D002CE3ED /* Constant.h */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A85B68441D6C2AED002CE3ED /* AlarmRemindProjectUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A85B68451D6C2AED002CE3ED /* AlarmRemindProjectUITests.m */,
+				A85B68471D6C2AED002CE3ED /* Info.plist */,
+			);
+			path = AlarmRemindProjectUITests;
+			sourceTree = "<group>";
+		};
+		A85B68501D6C2B95002CE3ED /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A85B68731D6C3A66002CE3ED /* StudentInfoModel.h */,
+				A85B68741D6C3A66002CE3ED /* StudentInfoModel.m */,
+				A85B68761D6C3A8B002CE3ED /* DataManager.h */,
+				A85B68771D6C3A8B002CE3ED /* DataManager.m */,
+				A82F2BC01D6EC2FC00BFD5BC /* LocalNotificationManager.h */,
+				A82F2BC11D6EC2FC00BFD5BC /* LocalNotificationManager.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A85B68511D6C2B95002CE3ED /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				A85B68611D6C321D002CE3ED /* set@2x.png */,
+				A85B68621D6C321D002CE3ED /* set@3x.png */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		A85B68521D6C2B95002CE3ED /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A85B686D1D6C34F5002CE3ED /* StudentListCell.h */,
+				A85B686E1D6C34F5002CE3ED /* StudentListCell.m */,
+				A86395EA1D6D71AB005F5337 /* StudentInfoCell.h */,
+				A86395EB1D6D71AB005F5337 /* StudentInfoCell.m */,
+				A86395ED1D6D71F0005F5337 /* StudentSubjectCell.h */,
+				A86395EE1D6D71F0005F5337 /* StudentSubjectCell.m */,
+				A82F2BBA1D6DEF3200BFD5BC /* StudentInfoFooterView.h */,
+				A82F2BBB1D6DEF3200BFD5BC /* StudentInfoFooterView.m */,
+				A8BDBFEE1D6FDB2D0011E6EE /* CustomBaseCell.h */,
+				A8BDBFEF1D6FDB2D0011E6EE /* CustomBaseCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A85B68531D6C2B95002CE3ED /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				A85B68591D6C2DEB002CE3ED /* ViewController.h */,
+				A85B685A1D6C2DEB002CE3ED /* ViewController.m */,
+				A85B68541D6C2C84002CE3ED /* BaseViewController.h */,
+				A85B68551D6C2C84002CE3ED /* BaseViewController.m */,
+				A85B68661D6C3290002CE3ED /* SetViewController.h */,
+				A85B68671D6C3290002CE3ED /* SetViewController.m */,
+				A85B68701D6C39B5002CE3ED /* StudentInfoViewController.h */,
+				A85B68711D6C39B5002CE3ED /* StudentInfoViewController.m */,
+				A86395F01D6D8CCD005F5337 /* StudentAddTeacherViewController.h */,
+				A86395F11D6D8CCD005F5337 /* StudentAddTeacherViewController.m */,
+				A82F2BBD1D6E8F2700BFD5BC /* StudentInfoAddViewController.h */,
+				A82F2BBE1D6E8F2700BFD5BC /* StudentInfoAddViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A85B68271D6C2AED002CE3ED /* AlarmRemindProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A85B684A1D6C2AED002CE3ED /* Build configuration list for PBXNativeTarget "AlarmRemindProject" */;
+			buildPhases = (
+				108F5F39AD2AFFDAFC0E31A7 /* 📦 Check Pods Manifest.lock */,
+				A85B68241D6C2AED002CE3ED /* Sources */,
+				A85B68251D6C2AED002CE3ED /* Frameworks */,
+				A85B68261D6C2AED002CE3ED /* Resources */,
+				608183448FEAC955C4C44CDF /* 📦 Embed Pods Frameworks */,
+				394C31675B027C30ED6851C7 /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AlarmRemindProject;
+			productName = AlarmRemindProject;
+			productReference = A85B68281D6C2AED002CE3ED /* AlarmRemindProject.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A85B68401D6C2AED002CE3ED /* AlarmRemindProjectUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A85B684D1D6C2AED002CE3ED /* Build configuration list for PBXNativeTarget "AlarmRemindProjectUITests" */;
+			buildPhases = (
+				A85B683D1D6C2AED002CE3ED /* Sources */,
+				A85B683E1D6C2AED002CE3ED /* Frameworks */,
+				A85B683F1D6C2AED002CE3ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A85B68431D6C2AED002CE3ED /* PBXTargetDependency */,
+			);
+			name = AlarmRemindProjectUITests;
+			productName = AlarmRemindProjectUITests;
+			productReference = A85B68411D6C2AED002CE3ED /* AlarmRemindProjectUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A85B68201D6C2AED002CE3ED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = SXiao.RR;
+				TargetAttributes = {
+					A85B68271D6C2AED002CE3ED = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					A85B68401D6C2AED002CE3ED = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = A85B68271D6C2AED002CE3ED;
+					};
+				};
+			};
+			buildConfigurationList = A85B68231D6C2AED002CE3ED /* Build configuration list for PBXProject "AlarmRemindProject" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A85B681F1D6C2AED002CE3ED;
+			productRefGroup = A85B68291D6C2AED002CE3ED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A85B68271D6C2AED002CE3ED /* AlarmRemindProject */,
+				A85B68401D6C2AED002CE3ED /* AlarmRemindProjectUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A85B68261D6C2AED002CE3ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A85B68581D6C2D0D002CE3ED /* Launch Screen.storyboard in Resources */,
+				A85B68381D6C2AED002CE3ED /* Assets.xcassets in Resources */,
+				A85B68651D6C321D002CE3ED /* set@3x.png in Resources */,
+				A85B68641D6C321D002CE3ED /* set@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A85B683F1D6C2AED002CE3ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		108F5F39AD2AFFDAFC0E31A7 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		394C31675B027C30ED6851C7 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AlarmRemindProject/Pods-AlarmRemindProject-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		608183448FEAC955C4C44CDF /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AlarmRemindProject/Pods-AlarmRemindProject-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A85B68241D6C2AED002CE3ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A82F2BBF1D6E8F2700BFD5BC /* StudentInfoAddViewController.m in Sources */,
+				A8BDBFF01D6FDB2D0011E6EE /* CustomBaseCell.m in Sources */,
+				A85B68561D6C2C84002CE3ED /* BaseViewController.m in Sources */,
+				A85B68751D6C3A66002CE3ED /* StudentInfoModel.m in Sources */,
+				A82F2BBC1D6DEF3200BFD5BC /* StudentInfoFooterView.m in Sources */,
+				A85B68301D6C2AED002CE3ED /* AppDelegate.m in Sources */,
+				A86395EF1D6D71F0005F5337 /* StudentSubjectCell.m in Sources */,
+				A85B685B1D6C2DEB002CE3ED /* ViewController.m in Sources */,
+				A85B686F1D6C34F5002CE3ED /* StudentListCell.m in Sources */,
+				A85B68721D6C39B5002CE3ED /* StudentInfoViewController.m in Sources */,
+				A85B68681D6C3290002CE3ED /* SetViewController.m in Sources */,
+				A82F2BC21D6EC2FC00BFD5BC /* LocalNotificationManager.m in Sources */,
+				A85B68781D6C3A8B002CE3ED /* DataManager.m in Sources */,
+				A86395F21D6D8CCD005F5337 /* StudentAddTeacherViewController.m in Sources */,
+				A85B682D1D6C2AED002CE3ED /* main.m in Sources */,
+				A86395EC1D6D71AB005F5337 /* StudentInfoCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A85B683D1D6C2AED002CE3ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A85B68461D6C2AED002CE3ED /* AlarmRemindProjectUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A85B68431D6C2AED002CE3ED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A85B68271D6C2AED002CE3ED /* AlarmRemindProject */;
+			targetProxy = A85B68421D6C2AED002CE3ED /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A85B68481D6C2AED002CE3ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A85B68491D6C2AED002CE3ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A85B684B1D6C2AED002CE3ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A5AFB9DF3FBC0E740C9CB71 /* Pods-AlarmRemindProject.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = /Users/suoxiaoxiao/Desktop/AlarmRemindProject/AlarmRemindProject/PrefixHeader.pch;
+				INFOPLIST_FILE = AlarmRemindProject/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Sxiao.project.AlarmRemindProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A85B684C1D6C2AED002CE3ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46D9A17CF9B4194AA468A864 /* Pods-AlarmRemindProject.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = /Users/suoxiaoxiao/Desktop/AlarmRemindProject/AlarmRemindProject/PrefixHeader.pch;
+				INFOPLIST_FILE = AlarmRemindProject/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Sxiao.project.AlarmRemindProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A85B684E1D6C2AED002CE3ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = AlarmRemindProjectUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Sxiao.project.AlarmRemindProjectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AlarmRemindProject;
+			};
+			name = Debug;
+		};
+		A85B684F1D6C2AED002CE3ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = AlarmRemindProjectUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Sxiao.project.AlarmRemindProjectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AlarmRemindProject;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A85B68231D6C2AED002CE3ED /* Build configuration list for PBXProject "AlarmRemindProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A85B68481D6C2AED002CE3ED /* Debug */,
+				A85B68491D6C2AED002CE3ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A85B684A1D6C2AED002CE3ED /* Build configuration list for PBXNativeTarget "AlarmRemindProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A85B684B1D6C2AED002CE3ED /* Debug */,
+				A85B684C1D6C2AED002CE3ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A85B684D1D6C2AED002CE3ED /* Build configuration list for PBXNativeTarget "AlarmRemindProjectUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A85B684E1D6C2AED002CE3ED /* Debug */,
+				A85B684F1D6C2AED002CE3ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A85B68201D6C2AED002CE3ED /* Project object */;
+}
